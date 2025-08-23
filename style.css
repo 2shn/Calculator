@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,11 +17,13 @@ body {
 
 div.calculator {
     padding: 15px;
-    background-color: rgb(209, 209, 209);;
+    background-color: rgb(209, 209, 209);
+    border: 2px solid rgb(150, 150, 150);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     width: 40%;
+    min-width: 200px;
     max-width: 300px;
 }
 
@@ -60,7 +62,7 @@ p.output-text {
     position: fixed;
     bottom: 5px;
     text-decoration: none;
-    color: rgb(226, 226, 226);
+    color: rgb(146, 146, 146);
 }
 
 #equation {
