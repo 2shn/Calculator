@@ -49,11 +49,9 @@ function addOperand(e) {
     if (operation.operator !== undefined) {
         operation.operand2.push(e.target.textContent);
         output.textContent += e.target.textContent;
-        console.log(operation.operand2)
     }  else {
         operation.operand1.push(e.target.textContent);
         output.textContent = operation.operand1.join('');
-        console.log(operation.operand1)
     }
 }
 

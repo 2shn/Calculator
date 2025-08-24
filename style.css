@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(65, 17, 17);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,14 +17,14 @@ body {
 
 div.calculator {
     padding: 15px;
-    background-color: rgb(227, 227, 227);
-    border: 2px solid rgb(192, 192, 192);
+    background-color: rgb(26, 26, 26);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     width: 40%;
     min-width: 200px;
     max-width: 300px;
+    box-shadow: 3px 3px 0px 2px black;
 }
 
 div.row {
@@ -36,17 +36,19 @@ div.row {
 button {
     flex: auto;
     width: 40px;
-    height: 30px;
+    height: 35px;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 800;
-    background-color: rgb(156, 156, 156);
-    border: 2px solid rgb(108, 108, 108);
+    background-color: rgb(102, 102, 102);
+    border: 2px solid rgb(35, 35, 35);
     color: rgb(247, 247, 247);
+    box-shadow: 3px 2px 0px 1px black;
+    padding: 5px;;
 }
 
 p.output-text {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(48, 48, 48);
     height: 55px;
     margin: 10px 0;
     padding: 10px;
@@ -54,26 +56,26 @@ p.output-text {
     text-align: right;
     align-content: flex-end;
     font-size: 16px;
-    border: 2px solid rgb(151, 151, 151);
-    color: rgb(67, 67, 67);
+    color: rgb(158, 158, 158);
     font-weight: 800;
+    box-shadow: -1px 1px 0px 2px rgb(35, 35, 35);
 }
 
 #credit {
     position: fixed;
     bottom: 5px;
     text-decoration: none;
-    color: rgb(146, 146, 146);
+    color: rgb(30, 7, 7);
 }
 
 #equation {
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .dark-gray {
-    background-color: rgb(106, 106, 106);
+    background-color: rgb(67, 67, 67);
     color: rgb(255, 255, 255);
-    border: 2px solid rgb(63, 63, 63);
+    border: 2px solid rgb(23, 23, 23);
 }
 
 .red {
