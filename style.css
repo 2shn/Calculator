@@ -17,8 +17,8 @@ body {
 
 div.calculator {
     padding: 15px;
-    background-color: rgb(209, 209, 209);
-    border: 2px solid rgb(150, 150, 150);
+    background-color: rgb(227, 227, 227);
+    border: 2px solid rgb(192, 192, 192);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -46,16 +46,17 @@ button {
 }
 
 p.output-text {
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(199, 199, 199);
     height: 55px;
     margin: 10px 0;
     padding: 10px;
     border-radius: 8px;
     text-align: right;
     align-content: flex-end;
-    font-size: 20px;
-    border: 2px solid rgb(130, 130, 130);
+    font-size: 16px;
+    border: 2px solid rgb(151, 151, 151);
     color: rgb(67, 67, 67);
+    font-weight: 800;
 }
 
 #credit {
