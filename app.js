@@ -103,6 +103,4 @@ function deleteOneCharacter(e) {
     } else {
         operation.operand2.pop();
     }
-
-    console.log(operation);
 }
